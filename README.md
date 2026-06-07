@@ -6,6 +6,8 @@ Stable Diffusion Forge NEO にも対応しています。
 Auto Negative Prompt is a Stable Diffusion WebUI reForge extension that automatically appends mapped negative prompt terms for matching prompt triggers.  
 It also supports Stable Diffusion Forge NEO.
 
+![Auto Negative Prompt main UI](docs/images/auto-negative-main-ui.png)
+
 ## Features
 
 - Always-visible `InputAccordion` UI, matching the compact WebUI extension style
