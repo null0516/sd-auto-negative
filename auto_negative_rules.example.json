@@ -1,0 +1,38 @@
+[
+  {
+    "enabled": true,
+    "trigger": "landscape, scenery",
+    "negative": "low quality, blurry, jpeg artifacts",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "rain, fog",
+    "negative": "muddy colors, low contrast",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "portrait",
+    "negative": "extra fingers, bad hands",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "night & city",
+    "negative": "overexposed lights",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "sketch | lineart",
+    "negative": "messy lines, unfinished details",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "macro",
+    "negative": "out of focus background, motion blur",
+    "match_mode": "contains"
+  }
+]

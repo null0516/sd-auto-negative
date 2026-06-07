@@ -1,0 +1,5 @@
+auto_negative_rules.json
+__pycache__/
+*.py[cod]
+*.bak*
+*.tmp
