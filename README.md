@@ -23,7 +23,7 @@ It also supports Stable Diffusion Forge NEO.
 Clone this repository into your WebUI `extensions` directory:
 
 ```bash
-git clone <repository-url> sd-auto-negative
+git clone https://github.com/null0516/sd-auto-negative.git sd-auto-negative
 ```
 
 Then restart the WebUI.
