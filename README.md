@@ -1,10 +1,10 @@
 # Auto Negative Prompt
 
 指定プロンプトに対応したネガティブプロンプトを自動で追記する Stable Diffusion WebUI reForge 用の拡張機能です。  
-StableDiffusionForgeNEO にも対応しています。
+Stable Diffusion Forge NEO にも対応しています。
 
 Auto Negative Prompt is a Stable Diffusion WebUI reForge extension that automatically appends mapped negative prompt terms for matching prompt triggers.  
-It also supports StableDiffusionForgeNEO.
+It also supports Stable Diffusion Forge NEO.
 
 ## Features
 
@@ -71,7 +71,7 @@ sd-auto-negative/
 ## Compatibility
 
 - Stable Diffusion WebUI reForge
-- StableDiffusionForgeNEO
+- Stable Diffusion Forge NEO
 - Gradio 3.x / 4.x WebUI forks
 
 ## Privacy
