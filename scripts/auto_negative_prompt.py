@@ -23,12 +23,13 @@ from modules.ui_components import InputAccordion
 from modules.processing import StableDiffusionProcessing
 
 DEFAULT_RULES = [
-    {"trigger": "landscape, scenery", "negative": "low quality, blurry, jpeg artifacts",       "enabled": True, "match_mode": "word"},
-    {"trigger": "rain, fog",          "negative": "muddy colors, low contrast",                "enabled": True, "match_mode": "word"},
-    {"trigger": "portrait",           "negative": "extra fingers, bad hands",                  "enabled": True, "match_mode": "word"},
-    {"trigger": "night & city",       "negative": "overexposed lights",                        "enabled": True, "match_mode": "word"},
-    {"trigger": "sketch | lineart",   "negative": "messy lines, unfinished details",           "enabled": True, "match_mode": "word"},
-    {"trigger": "macro",              "negative": "out of focus background, motion blur",      "enabled": True, "match_mode": "contains"},
+    {"trigger": "tan",            "negative": "dark-skinned male",                  "enabled": True, "match_mode": "word"},
+    {"trigger": "Blindfold",      "negative": "(eyes:1.40)",                       "enabled": True, "match_mode": "word"},
+    {"trigger": "sleep",          "negative": "open eyes",                         "enabled": True, "match_mode": "word"},
+    {"trigger": "animal girl",    "negative": "(hair band,fake animal ears:1.1)",  "enabled": True, "match_mode": "word"},
+    {"trigger": "glowing tattoo", "negative": "(glowing eyes:1.2)",                "enabled": True, "match_mode": "word"},
+    {"trigger": "Nurse",          "negative": "(Red Cross:1.4)",                   "enabled": True, "match_mode": "word"},
+    {"trigger": "selfie",         "negative": "(camera:1.2)",                      "enabled": True, "match_mode": "word"},
 ]
 
 EXTENSION_DIR = os.path.dirname(os.path.dirname(__file__))

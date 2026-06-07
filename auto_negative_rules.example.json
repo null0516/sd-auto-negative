@@ -1,38 +1,44 @@
 [
   {
     "enabled": true,
-    "trigger": "landscape, scenery",
-    "negative": "low quality, blurry, jpeg artifacts",
+    "trigger": "tan",
+    "negative": "dark-skinned male",
     "match_mode": "word"
   },
   {
     "enabled": true,
-    "trigger": "rain, fog",
-    "negative": "muddy colors, low contrast",
+    "trigger": "Blindfold",
+    "negative": "(eyes:1.40)",
     "match_mode": "word"
   },
   {
     "enabled": true,
-    "trigger": "portrait",
-    "negative": "extra fingers, bad hands",
+    "trigger": "sleep",
+    "negative": "open eyes",
     "match_mode": "word"
   },
   {
     "enabled": true,
-    "trigger": "night & city",
-    "negative": "overexposed lights",
+    "trigger": "animal girl",
+    "negative": "(hair band,fake animal ears:1.1)",
     "match_mode": "word"
   },
   {
     "enabled": true,
-    "trigger": "sketch | lineart",
-    "negative": "messy lines, unfinished details",
+    "trigger": "glowing tattoo",
+    "negative": "(glowing eyes:1.2)",
     "match_mode": "word"
   },
   {
     "enabled": true,
-    "trigger": "macro",
-    "negative": "out of focus background, motion blur",
-    "match_mode": "contains"
+    "trigger": "Nurse",
+    "negative": "(Red Cross:1.4)",
+    "match_mode": "word"
+  },
+  {
+    "enabled": true,
+    "trigger": "selfie",
+    "negative": "(camera:1.2)",
+    "match_mode": "word"
   }
 ]
