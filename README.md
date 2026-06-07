@@ -14,7 +14,7 @@ It also supports Stable Diffusion Forge NEO.
 - Editable rule table with `Trigger`, `Negative`, and `Mode`
 - `Open JSON`, `Reload JSON`, and `Save` controls
 - Trigger matching with `word`, `contains`, `exact`, `and-*`, `not-*`, and expression syntax
-- Duplicate negative terms are skipped before insertion
+- Skips negative terms that already exist in the current negative prompt
 - Hires negative prompts are handled separately when available
 - Local rule files are kept out of Git by default
 
@@ -44,6 +44,9 @@ Rules are stored as JSON objects:
 The extension reads `auto_negative_rules.json` first. This file is local/user-specific and is ignored by Git.
 
 If `auto_negative_rules.json` does not exist, the extension copies rules from `auto_negative_rules.example.json` and creates a local `auto_negative_rules.json` automatically.
+
+Existing negative prompt terms are normalized and checked before insertion. If the same negative term already exists, Auto Negative Prompt will not add it again.  
+既存のネガティブプロンプト内に同じネガティブ語がある場合、その語は重複して追記されません。
 
 ## Match Modes
 
